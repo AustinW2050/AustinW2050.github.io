@@ -1,3 +1,65 @@
-div{
+body{
 	
+	background-image:url("../images/stars.jpg");
+	background-size:cover;
+	background-repeat:no-repeat;
+}
+
+*{
+		font-family:helvetica;
+		font-size: 20px;
+		text-align: center;
+		color: white;
+}
+
+table, th, td{
+	border: 1px solid black;
+}
+
+a, a:hover, a:visited, a:active{
+	color: 	#8000ff;
+	text-decoration:none;
+	text-align:center;
+	padding: 10px 14px;/*up right down left */
+}
+
+a:hover{
+		color:black;
+		animation-name:linkHover;
+		animation-duration:5s;
+		animation-iteration-count:infinite;
+}
+#profileDiv img{
+		float:left;
+		/*
+		margin-left: 5%;
+		margin-top: 10%;
+		margin-right: 5%;*/
+		margin: 5%;
+}
+nav{
+		background-color: white;
+		width: 100%;
+}
+
+@keyframes linkHover{
+	0% {}
+	25% {}
+	50% {}
+	75% {}
+	100% {}
+	
+}
+
+#profileP{
+		background-color: black;
+		border: 1px solid white;
+		border-radius: 5px;
+}
+
+#parralax{
+	background-image:url("../images/eclipse.jpg");
+	background-size:cover;
+	background-attachment:fixed;
+	min-height: 200;
 }
